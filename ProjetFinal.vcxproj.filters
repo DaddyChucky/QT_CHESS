@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bibliotheque_cours\bibliotheque_cours.cpp" />
+    <ClCompile Include="bibliotheque_cours\verification_allocation.cpp" />
+    <ClCompile Include="googletest\src\gtest-all.cc" />
+    <ClCompile Include="Modele.cpp" />
+    <ClCompile Include="TestEchecs.cpp" />
+    <ClCompile Include="EchiquierIU.cpp" />
+    <ClCompile Include="Roi.cpp" />
+    <ClCompile Include="Cavalier.cpp" />
+    <ClCompile Include="Tour.cpp" />
+    <ClCompile Include="Plateau.cpp" />
+    <ClCompile Include="Case.cpp" />
+    <ClCompile Include="Piece.cpp" />
+    <ClCompile Include="BoutonsIU.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Modele.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="IU.h" />
+  </ItemGroup>
+</Project>
